@@ -32,7 +32,7 @@
         @endif
         </div>
         <b-checkbox name="remember" class="m-t-20">Remember Me</b-checkbox>
-        <button class="button is-fullwidth m-t-30 is-primary is-outlined">Log In</button>
+        <button class="button is-fullwidth m-t-30 is-success is-outlined">Log In</button>
       </form>
       </div>
     </div>

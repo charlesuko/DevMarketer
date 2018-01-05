@@ -28,7 +28,7 @@
           @endif
           </div>
 
-          <button class="button is-fullwidth m-t-30 is-primary is-outlined">Get reset link</button>
+          <button class="button is-fullwidth m-t-30 is-success is-outlined">Get reset link</button>
         </form>
         </div>
       </div>

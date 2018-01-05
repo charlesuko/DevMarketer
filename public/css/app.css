@@ -17238,8 +17238,8 @@ a.is-muted:hover {
   background-color: white;
   min-width: 200px;
   text-align: left;
-  -webkit-box-shadow: 0 0 1px rgba(57, 70, 78, 0.15), 0 20px 55px -8px rgba(57, 70, 78, 0.25);
-          box-shadow: 0 0 1px rgba(57, 70, 78, 0.15), 0 20px 55px -8px rgba(57, 70, 78, 0.25);
+  -webkit-box-shadow: 0 0 8px #777;
+          box-shadow: 0 0 8px #777;
 }
 
 .dropdown .dropdown-menu li.seperator {
@@ -17800,5 +17800,25 @@ button.navbar-item {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.side-menu {
+  position: fixed;
+  top: 4rem;
+  bottom: 0;
+  width: 200px;
+  background-color: white;
+  overflow-y: scroll;
+}
+
+.management-area {
+  position: absolute;
+  top: 4rem;
+  left: 200px;
+  right: 0;
+}
+
+.flex-container {
+  margin: 10px 25px;
 }
 

@@ -54,7 +54,7 @@
           @endif
           </div>
 
-          <button class="button is-fullwidth m-t-30 is-primary is-outlined">Reset Password</button>
+          <button class="button is-fullwidth m-t-30 is-success is-outlined">Reset Password</button>
         </form>
         </div>
       </div>

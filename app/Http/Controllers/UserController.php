@@ -15,7 +15,7 @@ class UserController extends Controller
     public function index()
     {
         //
-        $users = User::all();
+        $users = User::orderby('id', 'desc')->paginate(10);
         return view('manage.users.index')->withUsers($users);
     }
 
@@ -27,6 +27,7 @@ class UserController extends Controller
     public function create()
     {
         //
+        return view('manage.users.create');
     }
 
     /**
